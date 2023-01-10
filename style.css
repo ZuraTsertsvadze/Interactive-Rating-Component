@@ -1,0 +1,194 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.real-body{
+    background-color: #121417;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+position: relative;
+}
+
+
+.body{
+
+    background-color: #121417;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+
+
+}
+
+
+.main{
+    background-color: #252d37;
+    padding: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.875rem;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 25rem;
+    border-radius: 24px;
+}
+
+.star{
+    background-color: #363f4b;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+   align-items: center;
+   width: 3rem;
+   height: 3rem;
+}
+
+
+.num:hover{
+    
+ background-color: #fb7413;
+ color: white;
+ cursor: pointer;
+
+}
+
+
+
+
+.num{
+   
+background-color: #363f4b;
+border-radius: 50%;
+display: flex;
+color:#959EAC;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+font-weight: 700;
+width: 3rem;
+height: 3rem;
+
+
+}
+
+
+.num-cont{
+
+    display: flex;
+    column-gap:1.25rem;
+}
+
+.but{
+   background-color: #fb7413;
+   text-transform: uppercase;
+letter-spacing: 0.3125rem;
+   font-size: 0.8125rem;
+   font-weight: 700;
+   color: white;
+   height: 2.8125rem;
+   border-radius: 1.875rem;
+   border: none;
+
+}
+
+
+.but:hover{
+    background-color: white;
+    color: #fb7413;
+    cursor: pointer;
+
+}
+
+
+.p{
+    font-size: 0.9rem;
+    line-height:1.5rem;
+    font-weight: 400;
+    color: #959EAC
+}
+
+.h1{
+    color: white;
+}
+
+
+
+
+.thanks-main{
+position: absolute;
+z-index: 1;
+background-color: #252d37;
+padding: 1.875rem;
+display: flex;
+flex-direction: column;
+row-gap: 1.875rem;
+justify-content: center;
+align-items: center;
+width: 100%;
+max-width: 25rem;
+border-radius: 24px;
+}
+
+
+
+
+.score{
+   color: #f67214;
+   background-color: #363f4b;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   width: 12.8125rem;
+   text-align: center;
+   height: 2.1875rem;
+   border-radius: 1.25rem;
+}
+
+.value{
+    margin: 0rem 0.3125rem;
+}
+
+
+.ty-h1{
+    color: white;
+}
+
+.ty-p{
+
+color: #959EAC;
+font-size: 0.9rem;
+line-height: 1.5rem;
+font-weight: 400;
+text-align: center;
+
+}
+
+
+
+.ty-body{
+
+    color: #121417;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+z-index: -1;
+
+}
+
+
+
